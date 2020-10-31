@@ -1,8 +1,25 @@
-.main{
-    .row{
-        .texto{
-            font-size: 1.2rem;
-            font-weight: 300;
+.main {
+  height: 6vh; //fallback option
+  height: calc(var(--vh, 1vh) * 60);
+  background-color: $white;
+  .row {
+    .columns {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .col-1 {
+        padding: 0 50px;
+        box-sizing: border-box;
+        width: 60%;
+        .texto {
+          font-size: 1rem;
+          font-weight: 300;
         }
+      }
+      .col-2 {
+        padding: 0 50px;
+        color: $primary;
+      }
     }
+  }
 }

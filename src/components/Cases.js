@@ -1,6 +1,4 @@
 import React from 'react'
-import { ReactComponent as Casesnext } from '../assets/arrow-right.svg'
-import { ReactComponent as Casesprev } from '../assets/arrow-left.svg'
 
 const caseStudies = [
     {
